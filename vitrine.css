@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("OpenSans-Regular.ttf") format("truetype")
+}
+@font-face {
+    font-family: "nasalization-rg";
+    src: url("nasalization-rg.ttf") format("truetype")
+}
+body {
+    font-family: "OpenSans";
+    font-size: 14px;
+    background-color: #f2f2f2;
+    text-align: center
+}
+header {
+    font-family: "OpenSans";
+    background-image: url("texture-header.jpg");
+    height: 150px;
+    text-align: center;
+}
+h1 {
+    font-family: "nasalization-rg";
+    font-size: 40px;
+    color: #27d1ff;
+    text-align: center;
+}
+a, nav {
+    display: inline-block;
+    background-color: #2e2f30;
+    color: white;
+    padding-right: 50px;
+    margin: 0px;
+    text-align: right;
+    vertical-align: middle;
+    text-decoration: none;
+}
+a:link {
+    color: white
+}
+a:visited {
+    color: white
+}
+a.hover {
+    background-color: #17c1ff;
+}
+a:active {
+    color: #17c1ff;
+    font-weight: bold;
+}
+h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+.table {
+    margin: auto;
+    text-align: left;
+    height: 480px;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 30px;
+    height: 480px;
+}
+th {
+    background-color: #17c1ff;
+    text-align: center;
+    text-transform:  uppercase;
+    color: white;
+}
+fieldset [id="contact"] {
+    padding: 8px;
+    width: 250px;
+    font-family: "OpenSans";
+    border-color: #e6e6e6;
+    border: 2px;
+    text-align: center;
+    height: 30px;
+}
+input [type="submit"] {
+    border-color: #e6e6e6;
+    border: 2px;
+    font-family: "OpenSans";
+}
+p [id="buttons"] {
+    font-family: "OpenSans";
+    border-color: #e6e6e6;
+    border: 2px;
+}
